@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Timer from './components/timer/timer'
+import './components/fonts/fonts.css'
+import './components/base.css'
+
 
 const App: React.FC = () => {
   return (
@@ -18,7 +22,9 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-      </header>
+        <Timer />
+      </header> 
+     
     </div>
   );
 }
