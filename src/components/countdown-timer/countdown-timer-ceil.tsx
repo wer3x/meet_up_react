@@ -5,7 +5,7 @@ export interface IProps {
     description: string;
 }
 
-const NotesControl: React.FC<IProps> =
+const CountDownTimerCeil: React.FC<IProps> =
     (props: IProps) => {
         return (
             <div className="timer__ceil">
